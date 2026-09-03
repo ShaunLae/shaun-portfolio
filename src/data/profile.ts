@@ -1,7 +1,7 @@
 import type { Profile } from "../types";
 
 export const profile: Profile = {
-  brand: "Shaun.dev",
+  brand: "ShaunLaeWai",
   name: "Shaun Lae Wai",
   role: "Frontend Developer",
   location: "Subang Jaya, Selangor, Malaysia — open to MY & SG, remote or on-site",
@@ -104,7 +104,7 @@ export const profile: Profile = {
         "Designed and built from scratch as the capstone project for my React/TypeScript coursework: a glassmorphism-styled site with a custom design system, built to load fast and read clearly to recruiters scanning on mobile between meetings.",
       meta: ["React", "TypeScript", "Tailwind"],
       liveUrl: "#",
-      githubUrl: "https://github.com/ShaunLae",
+      githubUrl: "https://github.com/ShaunLae/shaun-portfolio",
     },
     {
       number: "02",
@@ -177,7 +177,7 @@ export const profile: Profile = {
     },
     {
       label: "LinkedIn",
-      href: "https://www.linkedin.com/in/shaun-lae-wai-b27755168/",
+      href: "https://www.linkedin.com/in/shaun-lae-wai-bella-b27755168/",
       hint: "/shaun-lae-wai",
     },
     {

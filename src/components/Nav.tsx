@@ -8,17 +8,12 @@ interface NavProps {
 
 export function Nav({ brand, links }: NavProps) {
   const [open, setOpen] = useState(false);
-  const dotIndex = brand.indexOf(".");
-  const brandLead = dotIndex === -1 ? brand : brand.slice(0, dotIndex);
-  const brandRest = dotIndex === -1 ? "" : brand.slice(dotIndex + 1);
 
   return (
     <header className="sticky top-0 z-50 border-b border-borderGlass bg-base/65 backdrop-blur-[16px] saturate-[140%]">
       <div className="mx-auto flex max-w-wrap items-center justify-between px-7 py-4">
         <a href="#top" className="font-display text-[1.15rem] font-semibold tracking-[0.01em] no-underline">
-          {brandLead}
-          <span className="text-olive">.</span>
-          {brandRest}
+          {brand}
         </a>
         <button
           type="button"
