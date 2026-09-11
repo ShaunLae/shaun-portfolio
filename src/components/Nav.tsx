@@ -27,7 +27,7 @@ export function Nav({ brand, links }: NavProps) {
         <ul
           className={`list-none gap-7 ${
             open
-              ? "fixed inset-x-0 top-16 z-50 flex flex-col gap-3.5 border-b border-borderGlass bg-base/97 px-7 py-6 sm:static sm:flex-row sm:border-0 sm:bg-transparent sm:p-0"
+              ? "fixed inset-x-0 top-16 z-50 flex flex-col gap-3.5 border-b border-borderGlass bg-base/97 px-7 py-6 sm:static sm:flex-row sm:border-0 sm:bg-transparent sm:p-0 bg-white"
               : "hidden sm:flex"
           }`}
         >
